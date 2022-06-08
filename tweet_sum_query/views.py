@@ -1,5 +1,5 @@
 from django.shortcuts import render
 
 # Create your views here.
-def post_list(request):
-    return render(request, 'tweet_sum_query/post_list.html', {})
+def tweet_sum_query_home(request):
+    return render(request, 'tweet_sum_query/tweet_sum_query_home.html', {})
